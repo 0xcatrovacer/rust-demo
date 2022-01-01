@@ -1,1 +1,3 @@
-# rust-demo
+# Rust
+
+Exploring the Rust programming language
