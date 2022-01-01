@@ -31,7 +31,7 @@ fn main() {
 
     let guess: u32 = guess.trim().parse().expect("Please type a number!");
     /*
-    Rust allows us to shadow the previous value of guess with a new one since string guess and u32 secret_number will return an error.
+    Rust allows us to shadow the previous value of guess with a new one since string type guess and u32 type secret_number will return an error in the match line.
 
     guess is bound to the expression guess.trim().parse()
     [trim method on a String instance will eliminate any whitespace at the beginning and end]
